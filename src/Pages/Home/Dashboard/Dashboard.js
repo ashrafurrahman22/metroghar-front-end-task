@@ -19,10 +19,10 @@ const Dashboard = () => {
                 <li><Link to="/" className='btn btn-info border-none normal-case bg-base-100 text-black'>
                 <FontAwesomeIcon icon={faTableList} />
                     Dashboard</Link></li>
-                <li><Link to="/" className='btn btn-info border-none normal-case bg-base-100 text-black'>
+                <li><Link to="/dashboard" className='btn btn-info border-none normal-case bg-base-100 text-black'>
                 <FontAwesomeIcon icon={faChartColumn} />
                     Property</Link></li>
-                <li><Link to="/dashboard" className='btn btn-info border-none normal-case bg-base-100 text-black'>
+                <li><Link to="/" className='btn btn-info border-none normal-case bg-base-100 text-black'>
                 <FontAwesomeIcon icon={faUsers} />
                     Lead</Link></li>
                 <li><Link to="/dashboard/chat" className='btn btn-info border-none normal-case bg-base-100 text-black'>
