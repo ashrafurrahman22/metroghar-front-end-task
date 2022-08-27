@@ -4,7 +4,7 @@ import Message from './Message';
 
 const Chat = () => {
     return (
-        <div className='flex px-8'>
+        <div className='flex p-16'>
             <div style={{width:"435px"}} className='w-6/12 border rounded'>
             <ChatMembers></ChatMembers>
             </div>

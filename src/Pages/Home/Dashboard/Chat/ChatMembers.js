@@ -6,7 +6,7 @@ const ChatMembers = () => {
             <div className='flex flex-col justify-center items-center'>
             <h2 style={{fontFamily:"poppins"}} className='text-3xl pt-2 pb-8 font-semibold'>Chat</h2>
             <div className='pb-8 w-full'>
-            <input type="text" placeholder="Search" class="input input-bordered  w-full" />
+            <input type="text" placeholder="Search" class="input input-bordered border-b-2 border-x-0 border-t-0  w-full bg-base-200" />
             </div>
 
 

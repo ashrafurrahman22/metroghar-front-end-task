@@ -3,6 +3,7 @@ import Chat from "./Pages/Home/Dashboard/Chat/Chat";
 import Dashboard from "./Pages/Home/Dashboard/Dashboard";
 import Lead from "./Pages/Home/Dashboard/Lead/Lead";
 import Navbar from "./Pages/Shared/Header/Navbar";
+import './App.css';
 
 function App() {
   return (

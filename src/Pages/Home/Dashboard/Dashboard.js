@@ -9,7 +9,7 @@ const Dashboard = () => {
         <div class="drawer drawer-mobile">
         <input id="dashboard-sidebar" type="checkbox" class="drawer-toggle" />
         <div class="drawer-content">
-            <h2 style={{fontFamily:"poppins", letterSpacing:"3px"}} className='text-2xl font-semibold text-blue-600 p-5'>Dashboard</h2>
+            {/* <h2 style={{fontFamily:"poppins", letterSpacing:"3px"}} className='text-2xl font-semibold text-blue-600 p-5'>Dashboard</h2> */}
             <Outlet></Outlet>
         </div>
         <div class="drawer-side border border-t-0">
