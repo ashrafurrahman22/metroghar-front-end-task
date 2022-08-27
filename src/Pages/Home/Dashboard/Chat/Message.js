@@ -62,15 +62,15 @@ const Message = () => {
             <h2 className="bg-base-300 p-3 rounded-xl">That sounds great! </h2>
         </div>
 
-        <div className="mt-32 w-full flex justify-center items-center gap-4">
+        <div className="mt-32 w-full bg-base-200 rounded flex justify-center items-center gap-4">
         <div>
             <button className="cursor-pointer"><FontAwesomeIcon className="text-3xl w-10" icon={faCamera}></FontAwesomeIcon></button>
         </div>
         <div>
-        <input type="text" placeholder="Type Message" class="input input-bordered w-96 " />
+        <input type="text" placeholder="Type Message" class="input bg-base-200 w-96 " />
         </div>
         <div>
-           <button className="btn w-16"> <FontAwesomeIcon className="text-2xl" icon={faPaperPlane}></FontAwesomeIcon></button>
+           <button className="cursor-pointer w-16"> <FontAwesomeIcon className="text-2xl" icon={faPaperPlane}></FontAwesomeIcon></button>
         </div>
         </div>
 
