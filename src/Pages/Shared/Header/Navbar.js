@@ -4,7 +4,7 @@ import logo from '../../../assets/logo.png'
 
 const Navbar = () => {
     return (
-        <div class="navbar bg-base-200 px-20">
+        <div class="navbar bg-base-100 border py-3 px-20">
   <div class="flex-1">
     <Link to='/' class="btn btn-ghost normal-case w-52 text-xl">
        <img src={logo} alt="" />
@@ -25,7 +25,7 @@ const Navbar = () => {
     <div class="dropdown dropdown-end">
       <label tabindex="0" class="btn btn-ghost btn-circle avatar">
         <div class="w-10 rounded-full">
-          <img src="https://placeimg.com/80/80/people" />
+          <img src="https://placeimg.com/80/80/people" alt='' />
         </div>
       </label>
       <ul tabindex="0" class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
