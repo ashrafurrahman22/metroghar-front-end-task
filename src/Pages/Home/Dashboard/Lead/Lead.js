@@ -5,7 +5,7 @@ import Table from './Table';
 
 const Lead = () => {
     return (
-        <div className='py-8'>
+        <div className='py-8 bg-base-100'>
             <div className='px-12 pb-5'>
             <div className='border p-3 rounded-xl w-full'>
             <div className='flex justify-between items-center'>
