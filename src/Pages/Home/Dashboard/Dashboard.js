@@ -1,5 +1,4 @@
-import { faCalendar, faChartBar, faChartColumn, faCoffee, faGear, faGears, faMessage, faTableList, faUser, faUserCircle, faUserPlus, faUsers } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import dashboardIco from '../../../assets/icon/dashb.png'
@@ -21,7 +20,7 @@ const Dashboard = () => {
         </div>
         <div style={{fontFamily:"poppins"}} class="drawer-side border border-t-0">
             <label for="dashboard-sidebar" class="drawer-overlay"></label>
-            <ul class="menu bg-base-100 border-l-2 p-4 overflow-y-auto w-60 gap-5 text-white text-base-content">
+            <ul class="menu bg-base-100 border-l-2 p-4 overflow-y-auto w-60 gap-5">
                 
                 <li><Link to="/" className='btn btn-info flex justify-start border-none normal-case bg-base-100 text-black'>
                     <img style={{width:"26.33px", height:"28.43px"}} src={dashboardIco} alt="" />
